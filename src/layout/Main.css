@@ -1,0 +1,35 @@
+#main-container {
+    display: flex;
+    justify-content: center;
+background-color: rgba(0, 0, 0, 0.404);
+
+  }
+  #container{
+ 
+    width: 90%;
+    padding: 20px;
+    /* background-color: antiquewhite; */
+    
+  }
+  .header-container{
+    display: flex;
+    justify-content: center;
+  }
+.header{
+
+    width: 90%;
+
+    /* background-color: rgba(58, 58, 58, 0.438); */
+}
+.content-container{
+  display: flex;
+  justify-content: center;
+}
+.content{
+    width: 90%;
+    /* background-color: rgba(0, 0, 0, 0.486); */
+}
+.footer{
+    height: 100px;
+    /* background-color: rgba(0, 0, 255, 0.719); */
+}
