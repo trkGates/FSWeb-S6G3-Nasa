@@ -38,7 +38,9 @@ const veri =() => {
 
   return (
     <div className="bar">
-      <input placeholder="YYYY-AA-GG" type="date" onChange={(e) => setArama(e.target.value)} />
+      <div className="deneme123">
+      <input className="deneme" placeholder="YYYY-AA-GG" type="date" onChange={(e) => setArama(e.target.value)} />
+      </div>
       <div>
       <h2>{data.title}</h2>
      <p>{data.explanation}</p>
